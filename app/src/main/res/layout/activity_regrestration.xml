@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regrestration"
+    android:orientation="vertical"
+    android:background="#1976D2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Create new account"
+            android:textSize="30sp"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linrear_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/useer_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="User Name"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:padding="16dp"
+            android:textColorHint="#000" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:id="@+id/r_male"
+                android:textColor="#fff"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fmale"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:id="@+id/r_famale"
+                android:textColor="#fff"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFA000"
+            android:text="Sign Up"
+            android:textColor="#F5F0F0"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

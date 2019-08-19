@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783704896053",
+    "firebase_url": "https://finalprojectsummer.firebaseio.com",
+    "project_id": "finalprojectsummer",
+    "storage_bucket": "finalprojectsummer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783704896053:android:2318e08c16d4f266",
+        "android_client_info": {
+          "package_name": "com.enggemy22.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783704896053-03vka7rlegauj1mlcvo98n83f8pi0kvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enggemy22.afinal",
+            "certificate_hash": "19959ff58647ffc548c4a1f05b6cbc720c431156"
+          }
+        },
+        {
+          "client_id": "783704896053-u35ko1ross29stgn9t4ko5pcmdaf29cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBKGxOz6YyT17B8dLUpAzxdXDE9JPn-JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783704896053-u35ko1ross29stgn9t4ko5pcmdaf29cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
